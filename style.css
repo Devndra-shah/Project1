@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 500;
+    
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}   
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+
+}
+
+nav{
+    height:10%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    text-transform: capitalize;
+    font-size: 1vw;
+    
+}
+
+
+.nav3{
+    display: flex;
+
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    
+}
+.nav1 p{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+
+}
+.nav1 i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding:5px ;
+
+}
+
+.nav3 p{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    border: none  !important;
+}
+.nav2{
+    text-transform: uppercase;
+}
+
+.center{
+   height: 80vh;
+   width: 100vw;
+   padding: 0% 5%;
+   /* position: relative; */
+   /* background-color: aquamarine; */
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+}
+h1{
+    
+   text-transform: uppercase;
+    font-size: 9vw;
+}
+
+.img1{
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    border-radius: 40px;
+    background-color: #333;
+    background: url(https://4kwallpapers.com/images/wallpapers/tanjiro-kamado-2880x1800-9324.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    rotate: 0deg;
+    z-index: 5;
+}
+.img2{
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    border-radius: 40px;
+    background-color: #333;
+    background: url(https://motionbgs.com/media/2048/Zenitsu-agatsuma.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    rotate: -10deg;
+    z-index: 4;
+}
+.img3{
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    border-radius: 40px;
+    background-color: #333;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c228eac-01a7-4410-892f-c9128f0141e6/dex31ci-84def487-84e3-4025-b281-99994babd275.png/v1/fill/w_1280,h_720,q_80,strp/demon_slayer___inosuke_hashibira_wallpaper_by_knotshoxtm_dex31ci-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMGMyMjhlYWMtMDFhNy00NDEwLTg5MmYtYzkxMjhmMDE0MWU2XC9kZXgzMWNpLTg0ZGVmNDg3LTg0ZTMtNDAyNS1iMjgxLTk5OTk0YmFiZDI3NS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hVrbXvvSLsr2cD2padU4MIw7hgPiZDBZNdHFPgpSK4g);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    rotate: -20deg;
+    z-index: 3;
+}
+.img4{
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    border-radius: 40px;
+    background-color: #333;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9914517-cfc7-4d3c-ac9d-0e8eb932ed49/deomae8-a4ac16d7-8809-4d73-a4b2-d178849176e6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I5OTE0NTE3LWNmYzctNGQzYy1hYzlkLTBlOGViOTMyZWQ0OVwvZGVvbWFlOC1hNGFjMTZkNy04ODA5LTRkNzMtYTRiMi1kMTc4ODQ5MTc2ZTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.82Pdj5qTq5UHIGm_7rdts6ivlBocQnBUzVYxc258I2I);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    rotate: -30deg;
+    z-index: 2;
+}
+
+footer{
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    position: relative;
+    font-stretch:extra-condensed;
+    
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: orangered;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 2px orangered;
+}
+
+h2{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.right .icon {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    
+}
+i{
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
